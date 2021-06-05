@@ -1,6 +1,6 @@
 # Chessengine with Pygame
 
-Chess in python
+![Image of chess in pygame](https://github.com/LimIvan336/LimIvan336/blob/main/images/chessengine_screenshot.PNG)
 
 ## Description
 
@@ -33,7 +33,7 @@ Locate the main driver file (main.py).
 
 <br>
 
-## Running 
+## Running
 
 * How to run the program:
 
