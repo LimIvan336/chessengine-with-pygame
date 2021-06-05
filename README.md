@@ -33,7 +33,7 @@ Locate the main driver file (main.py).
 
 <br>
 
-### Running
+## Running 
 
 * How to run the program:
 
