@@ -31,13 +31,16 @@ Locate the main driver file (main.py).
 
 ### Running
 
-* How to run the program
+* How to run the program:
+
 `python3 main.py`
 
-* To play
+* How to play
+
 1. White first, click on any piece of white and make a valid move by pressing the destination square.
 2. Black goes next and the rules of chess follows.
 3. Game ends until either side got checkmate/stalemate.
+
 
 * Special keys
 1. To undo a move, press Ctrl - Z on keyboard.
@@ -46,6 +49,8 @@ Locate the main driver file (main.py).
 ## Remarks
 
 For pawn promotion, the pawn will and only be promoted to a queen, i.e. cannot make selection of what piece to change into.
+
+Rules for chess can be found [here](https://www.chesscoachonline.com/chess-articles/chess-rules)
 
 <!-- ## Authors
 
