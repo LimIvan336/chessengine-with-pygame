@@ -31,18 +31,19 @@ Locate the main driver file (main.py).
 
 ### Running
 
-* How to run the program:
+#### How to run the program:
 
 `python3 main.py`
 
-* How to play
+
+#### How to play
 
 1. White first, click on any piece of white and make a valid move by pressing the destination square.
 2. Black goes next and the rules of chess follows.
 3. Game ends until either side got checkmate/stalemate.
 
 
-* Special keys
+#### Special keys
 1. To undo a move, press Ctrl - Z on keyboard.
 2. To reset the game, press Ctrl - R on keyboard.
 
