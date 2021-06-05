@@ -10,7 +10,7 @@ A simple chess engine implemented in pygame with legitimate chess rules and move
 
 Install [python3](https://www.python.org/downloads/)
 
-
+<br>
 
 ### Dependencies
 
@@ -24,14 +24,14 @@ Upgrading to the latest version with the `-U` flag:
 
 `pip install -U pygame`
 
-
+<br>
 
 ### Setup
 Download the files manually or clone the repository into your machine.
 
 Locate the main driver file (main.py).
 
-
+<br>
 
 ### Running
 
