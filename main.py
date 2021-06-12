@@ -1,7 +1,7 @@
 #main driver file, handling user input and displaying current game state
 
 import pygame as p
-import GameState
+import gameState
 
 WIDTH = HEIGHT = 512
 DIMENSION = 8 #8x8
@@ -112,7 +112,7 @@ def main():
     screen = p.display.set_mode((WIDTH, HEIGHT)) #screen
     clock = p.time.Clock()
     screen.fill(p.Color("white"))
-    game_state = GameState.GameState()
+    game_state = gameState.GameState()
     load_images()
     running = True
     square_selected = () #initalize that no square is selected. Shld be tuple (row,col)
@@ -147,7 +147,7 @@ def main():
                         player_clicks.append(square_selected) #append, inital_pos and final_pos
 
                     if len(player_clicks) == 2: #second click
-                        move = GameState.Move(player_clicks[0], player_clicks[1], game_state.board)
+                        move = gameState.Move(player_clicks[0], player_clicks[1], game_state.board)
                         print(move.get_chess_notation())
                         for i in range(len(valid_moves)):
                             if move == valid_moves[i]:
@@ -175,7 +175,7 @@ def main():
                     valid_moves = game_state.get_valid_moves()
 
                 elif e.key == p.K_r: #reset the board when r is pressed
-                    game_state = GameState.GameState()
+                    game_state = gameState.GameState()
                     valid_moves = game_state.get_valid_moves()
                     square_selected = ()
                     player_clicks = []

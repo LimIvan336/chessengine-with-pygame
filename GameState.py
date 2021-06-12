@@ -1,6 +1,6 @@
 #Store the state, info of the game
-from CastleRights import CastleRights
-from Move import Move
+from castleRights import CastleRights
+from move import Move
 
 class GameState():
     def __init__(self):
